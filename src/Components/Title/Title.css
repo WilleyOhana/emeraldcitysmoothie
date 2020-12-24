@@ -1,0 +1,35 @@
+.ecs-title, .ecs-description {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(29, 29, 29);
+    animation: ecs-title 2.5s;
+}
+  
+.ecs-description {
+    animation: ecs-description 2.5s;
+}
+  
+.ecs-title h1 {
+    font-size: 95px;
+}
+  
+@keyframes ecs-description {
+    0%  { 
+      transform: translateY(-10000%); 		
+    }
+    100% { 
+      transform: translateY(0%); 
+    }
+}
+  
+  
+@keyframes ecs-title {
+    0%  { 
+      transform: translateY(-1000%); 		
+    }
+    100% { 
+      transform: translateY(0%); 
+    }
+}
