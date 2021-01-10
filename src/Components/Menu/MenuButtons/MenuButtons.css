@@ -1,0 +1,53 @@
+.MenuButtons {
+    margin-top: 50px;
+    margin-left: 7%;
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.MenuButtons button {
+    margin: 5px;
+    margin-bottom: 20px;
+    font-family: "Alegreya Sans SC";
+    font-size: 23px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 13px;
+    background-color: rgb(118, 185, 202);
+    transition: 0.1s;
+    color: white;
+}
+
+.MenuButtons button:hover {
+    cursor: pointer;
+    background-color:rgb(136, 214, 233);
+}
+
+@media screen and (max-width: 980px) {
+    .MenuButtons {
+        width: 70%;
+        margin-top: 50px;
+        margin-left: 15%;
+        display: block;
+    }
+
+    .MenuButtons button {
+        margin: 5px;
+        font-family: "Alegreya Sans SC";
+        font-size: 18px;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 13px;
+        background-color: rgb(118, 185, 202);
+        transition: 0.1s;
+        color: white;
+    }
+}

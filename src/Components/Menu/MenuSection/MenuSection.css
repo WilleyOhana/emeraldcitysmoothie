@@ -1,0 +1,20 @@
+.section-name {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(180, 16, 16);
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.SmoothiesContainer {
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+hr {
+    margin-top: 50px;
+}

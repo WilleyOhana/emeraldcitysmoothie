@@ -1,23 +1,25 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Navbar from '../Navbar/Navbar.js';
-import Title from '../Title/Title.js';
-import HowToOrder from '../HowToOrder/HowToOrder.js';
-import FavoritesSection from '../FavoritesSection/FavoritesSection.js';
+import Home from '../Home/Home';
+import Menu from '../Menu/Menu';
+import Contact from '../Contact/Contact';
+import About from '../About/About';
+import Order from '../Order/Order';
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <div className="background-image">
-          <Navbar />
-          <Title />
-        </div>
-
-        <HowToOrder />
-
-        <FavoritesSection />
+      <div className ="App">
+        <Router>
+          <Switch>
+            <Route path="/" exact component = {() => <Home />} />
+            <Route path="/menu" exact component = {() => <Menu />} />
+            <Route path="/contact" exact component = {() => <Contact />} />
+            <Route path="/about" exact component = {() => <About />} />
+            <Route path="/order" exact component = {() => <Order />} />
+          </Switch>
+        </Router>
       </div>
     );
   }

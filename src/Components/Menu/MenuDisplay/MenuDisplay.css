@@ -1,0 +1,9 @@
+.MenuDisplay {
+    width: 65%;
+    min-width: 950px;
+    padding: 10px;
+    margin-left: 4%;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+}

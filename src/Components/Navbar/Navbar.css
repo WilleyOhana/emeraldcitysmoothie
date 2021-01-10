@@ -1,7 +1,7 @@
 .Navbar {
     text-align: center;
     width: 80%;
-    height: 13%;
+    height: 110px;
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 10%;
@@ -70,7 +70,8 @@
     }
 
     .button {
-        font-size: 35px;
+        font-size: 30px;
+        min-width: 100px;
     }
     
 }
