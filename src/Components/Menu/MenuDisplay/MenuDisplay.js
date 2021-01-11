@@ -3,7 +3,6 @@ import './MenuDisplay.css';
 
 import MenuSection from '../MenuSection/MenuSection';
 import * as smoothielist from './smoothielist.js';
-import Menu from '../Menu';
 
 class MenuDisplay extends React.Component {
     render () {
@@ -41,6 +40,18 @@ class MenuDisplay extends React.Component {
                                 smoothielist.minimass,
                                 smoothielist.megamass,
                                 smoothielist.nuttybanana
+                            ]}
+                />
+                <MenuSection 
+                    name="boost my immune system"
+                    smoothies={[smoothielist.acaifusion,
+                                smoothielist.blueberryblast,
+                                smoothielist.immunitynectar,
+                                smoothielist.mangoberry,
+                                smoothielist.marionberryfuel,
+                                smoothielist.quickstart,
+                                smoothielist.sambazon,
+                                smoothielist.zonezinger
                             ]}
                 />
             </div>

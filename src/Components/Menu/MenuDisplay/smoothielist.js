@@ -102,7 +102,7 @@ export const mochabliss = {
 export const zestylemon = {
     src: zestylemonpic,
     alt: "Zesty Lemon",
-    ingredients: ["Ice Cream","Strawberry","Lemon","Nonfat Milk","Whey Protein"]
+    ingredients: ["Strawberry","Lemon","Nonfat Milk","Whey Protein"]
 }
 
 export const greengoddess = {
@@ -138,19 +138,19 @@ export const vegandream = {
 export const thebuilder = {
     src: thebuilderpic,
     alt: "The Builder",
-    ingredients: ["Ice Cream","Chocolate/Strawberry/Vanilla","Peanut Butter","Banana","Gainer","Whey Protein"]
+    ingredients: ["Choice of Flavor","Ice Cream","Peanut Butter","Banana","Gainer","Whey Protein"]
 }
 
 export const minimass = {
     src: minimasspic,
     alt: "Mini Mass",
-    ingredients: ["Ice Cream","Chocolate/Strawberry/Vanilla","Banana","Whey Protein"]
+    ingredients: ["Choice of Flavor","Ice Cream","Banana","Whey Protein"]
 }
 
 export const megamass = {
     src: megamasspic,
     alt: "Mega Mass",
-    ingredients: ["Ice Cream","Chocolate/Strawberry/Vanilla","Banana","Gainer","Whey Protein"]
+    ingredients: ["Choice of Flavor","Ice Cream","Banana","Gainer","Whey Protein"]
 }
 
 export const nuttybanana = {
@@ -187,4 +187,22 @@ export const marionberryfuel = {
     src: marionberryfuelpic,
     alt: "Marionberry Fuel",
     ingredients: ["Marionberry","Strawberry","Whey Protein"]
+}
+
+export const quickstart = {
+    src: quickstartpic,
+    alt: "Quick Start",
+    ingredients: ["Strawberry","Orange","Whey Protein"]
+}
+
+export const sambazon = {
+    src: sambazonpic,
+    alt: "Sambazon",
+    ingredients: ["Acai","Strawberry","Cranberry","Almond Milk","Whey Protein"]
+}
+
+export const zonezinger = {
+    src: zonezingerpic,
+    alt: "Zone Zinger",
+    ingredients: ["Strawberry","Papaya","Lemon","Cranberry","Multi-Vitamin","Whey Protein"]
 }
