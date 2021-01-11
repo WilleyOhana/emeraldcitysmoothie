@@ -11,6 +11,7 @@ class MenuSection extends React.Component {
                         src={smoothie.src}
                         alt={smoothie.alt}
                         ingredients={smoothie.ingredients}
+                        price={smoothie.price}
                     />
         });
 
