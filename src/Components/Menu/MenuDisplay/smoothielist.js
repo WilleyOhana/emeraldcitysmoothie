@@ -90,7 +90,7 @@ export const southpacific = {
 export const tropicalparadise = {
     src: tropicalparadisepic,
     alt: "Tropical Paradise",
-    ingredients: ["Pineapple","Kiwi","Banana","Nonfat Milk","Whey Protein","Orange Juice"]
+    ingredients: ["Pineapple","Kiwi","Banana","Nonfat Milk","Whey Protein","Orange"]
 }
 
 export const mochabliss = {
