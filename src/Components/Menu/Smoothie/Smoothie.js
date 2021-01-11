@@ -9,6 +9,17 @@ class Smoothie extends React.Component {
         return list;
     }
 
+    listPrices(prices) {
+        let pricesString = "";
+        if(prices.length === 1) {
+            pricesString = "32oz. $7.75"
+        } else {
+            pricesString = "24oz. $" + prices[0].toPrecision(3) + " / 32oz. $" + prices[1].toPrecision(3);
+        }
+
+        return pricesString;
+    }
+
     render() {
         return (
             <div className="Smoothie">
@@ -19,6 +30,9 @@ class Smoothie extends React.Component {
                     <h3>{this.props.alt}</h3>
                     <div className="truncate-overflow">
                         <h4>{this.listIngredients(this.props.ingredients)}</h4>
+                    </div>
+                    <div className="prices">
+                        {this.listPrices(this.props.price)}
                     </div>
                 </div>
             </div>
