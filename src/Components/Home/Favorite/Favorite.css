@@ -56,7 +56,7 @@ ul, h4 {
 
 @media screen and (max-width: 1200px) {
     .Favorite {
-        min-width: 400px;
+        min-width: 550px;
         width: 80%;
     }
 }
