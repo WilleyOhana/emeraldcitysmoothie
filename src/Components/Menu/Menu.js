@@ -11,7 +11,6 @@ class Menu extends React.Component {
             <div className="Menu">
                 <div className="menu-background-image">
                     <Navbar />
-                    <MenuButtons />
 
                     <MenuDisplay />
                 </div>
