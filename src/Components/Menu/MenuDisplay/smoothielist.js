@@ -36,28 +36,28 @@ import zonezingerpic from './smoothiepics/zone-zinger.jpg';
 export const berryberry = {
     src: berryberrypic,
     alt: "Berry Berry",
-    ingredients: ["Blueberry","Raspberry","Strawberry","Whey Protein"],
+    ingredients: ["Blueberry","Raspberry","Strawberry","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 }
 
 export const pbj = {
     src: pbjpic,
     alt: "PB&J",
-    ingredients: ["Blueberry","Raspberry","Marionberry","Strawberry","Peanut Butter","Whey Protein"],
+    ingredients: ["Blueberry","Raspberry","Marionberry","Strawberry","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
 }
 
 export const coconutpassion = {
     src: coconutpassionpic,
     alt: "Coconut Passion",
-    ingredients: ["Pineapple","Banana","Coconut","Almonds","Nonfat milk","Whey Protein"],
+    ingredients: ["Pineapple","Banana","Coconut","Almonds","Nonfat milk","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 }
 
 export const guavasunrise = {
     src: guavasunrisepic,
     alt: "Guava Sunrise",
-    ingredients: ["Raspberry","Strawberry","Orange","Guava", "Whey Protein"],
+    ingredients: ["Raspberry","Strawberry","Orange","Guava", "Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 
 }
@@ -65,174 +65,174 @@ export const guavasunrise = {
 export const peanutpassion = {
     src: peanutpassionpic,
     alt: "Peanut Passion",
-    ingredients: ["Strawberry","Banana","Peanut Butter","Whey Protein"],
+    ingredients: ["Strawberry","Banana","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
 }
 
 export const powerfuel = {
     src: powerfuelpic,
     alt: "Power Fuel",
-    ingredients: ["Strawberry","Banana","Recovery","Whey Protein"],
+    ingredients: ["Strawberry","Banana","Recovery","Whey Protein *Gluten Free"],
     price: [6.00, 7.00]
 }
 
 export const raspberrydream = {
     src: raspberrydreampic,
     alt: "Raspberry Dream",
-    ingredients: ["Raspberry","Strawberry","Whey Protein"],
+    ingredients: ["Raspberry","Strawberry","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 }
 
 export const rejuvinator = {
     src: rejuvinatorpic,
     alt: "Rejuvinator",
-    ingredients: ["Strawberry","Nonfat Milk","Multi-Vitamin","Banana","Whey Protein"],
+    ingredients: ["Strawberry","Nonfat Milk","Multi-Vitamin","Banana","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
 }
 
 export const southpacific = {
     src: southpacificpic,
     alt: "South Pacific",
-    ingredients: ["Strawberry","Nonfat Milk","Banana","Pineapple","Coconut"],
+    ingredients: ["Strawberry","Nonfat Milk","Banana","Pineapple","Coconut *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 }
 
 export const tropicalparadise = {
     src: tropicalparadisepic,
     alt: "Tropical Paradise",
-    ingredients: ["Pineapple","Kiwi","Banana","Nonfat Milk","Whey Protein","Orange"],
+    ingredients: ["Pineapple","Kiwi","Banana","Nonfat Milk","Whey Protein","Orange *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 }
 
 export const mochabliss = {
     src: mochablisspic,
     alt: "Mocha Bliss",
-    ingredients: ["Almond Milk","Chocolate","Mocha","Nonfat Milk","Whey Protein"],
+    ingredients: ["Almond Milk","Chocolate","Mocha","Nonfat Milk","Whey Protein *Gluten Free"],
     price: [6.00, 7.00]
 }
 
 export const zestylemon = {
     src: zestylemonpic,
     alt: "Zesty Lemon",
-    ingredients: ["Strawberry","Lemon","Nonfat Milk","Whey Protein"],
+    ingredients: ["Strawberry","Lemon","Nonfat Milk","Whey Protein *Gluten Free"],
     price: [5.75, 6.75]
 }
 
 export const greengoddess = {
     src: greengoddesspic,
     alt: "Green Goddess",
-    ingredients: ["Spinach","Apple","Pineapple","Soy Milk","Immunity"],
+    ingredients: ["Spinach","Apple","Pineapple","Soy Milk","Immunity *Gluten Free *Vegan"],
     price: [5.75, 6.75]
 }
 
 export const theemerald = {
     src: theemeraldpic,
     alt: "The Emerald",
-    ingredients: ["Spinach","Kale","Blueberry","Strawberry","Banana","Whey Protein"],
+    ingredients: ["Spinach","Kale","Blueberry","Strawberry","Banana","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
 }
 
 export const peachesandgreens = {
     src: peachesandgreenspic,
     alt: "Peaches and Greens",
-    ingredients: ["Peach","Spinach","Banana","Chia","Almonds"],
+    ingredients: ["Peach","Spinach","Banana","Chia","Almonds *Gluten Free *Vegan"],
     price: [5.75, 6.75]
 }
 
 export const zipzip = {
     src: zipzippic,
     alt: "Zip Zip",
-    ingredients: ["Soy Milk","Apple","Banana","Whey Protein","Bee Sure"],
+    ingredients: ["Soy Milk","Apple","Banana","Whey Protein","Bee Sure *Gluten Free"],
     price: [6.00, 7.00]
 }
 
 export const vegandream = {
     src: vegandreampic,
     alt: "Vegan Dream",
-    ingredients: ["Spinach","Strawberry","Banana","Chia","Vegan Protein"],
+    ingredients: ["Spinach","Strawberry","Banana","Chia","Vegan Protein *Gluten Free *Vegan"],
     price: [6.00, 7.00]
 }
 
 export const thebuilder = {
     src: thebuilderpic,
     alt: "The Builder",
-    ingredients: ["Choice of Flavor","Ice Cream","Peanut Butter","Banana","Gainer","Whey Protein"],
+    ingredients: ["Choice of Flavor","Ice Cream","Peanut Butter","Banana","Gainer","Whey Protein *Gluten Free"],
     price: [7.75]
 }
 
 export const minimass = {
     src: minimasspic,
     alt: "Mini Mass",
-    ingredients: ["Choice of Flavor","Ice Cream","Banana","Whey Protein"],
+    ingredients: ["Choice of Flavor","Ice Cream","Banana","Whey Protein *Gluten Free"],
     price: [5.75, 6.75]
 }
 
 export const megamass = {
     src: megamasspic,
     alt: "Mega Mass",
-    ingredients: ["Choice of Flavor","Ice Cream","Banana","Gainer","Whey Protein"],
+    ingredients: ["Choice of Flavor","Ice Cream","Banana","Gainer","Whey Protein *Gluten Free"],
     price: [6.25, 7.25]
 }
 
 export const nuttybanana = {
     src: nuttybananapic,
     alt: "Nutty Banana",
-    ingredients: ["Banana","Nonfat Milk","Peanut Butter","Whey Protein"],
+    ingredients: ["Banana","Nonfat Milk","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
 }
 
 export const acaifusion = {
     src: acaifusionpic,
     alt: "Acai Fusion",
-    ingredients: ["Acai","Strawberry","Orange","Pineapple","Whey Protein"],
+    ingredients: ["Acai","Strawberry","Orange","Pineapple","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
 }
 
 export const blueberryblast = {
     src: blueberryblastpic,
     alt: "Blueberry Blast",
-    ingredients: ["Blueberry","Strawberry","Whey Protein"],
+    ingredients: ["Blueberry","Strawberry","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 }
 
 export const immunitynectar = {
     src: immunitynectarpic,
     alt: "Immunity Nectar",
-    ingredients: ["Strawberry","Cranberry","Banana","Immunity","Whey Protein"],
+    ingredients: ["Strawberry","Cranberry","Banana","Immunity","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 }
 
 export const mangoberry = {
     src: mangoberrypic,
     alt: "Mango Berry",
-    ingredients: ["Strawberry","Mango","Banana","Multi-Vitamin","Whey Protein"],
+    ingredients: ["Strawberry","Mango","Banana","Multi-Vitamin","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
 }
 
 export const marionberryfuel = {
     src: marionberryfuelpic,
     alt: "Marionberry Fuel",
-    ingredients: ["Marionberry","Strawberry","Whey Protein"],
+    ingredients: ["Marionberry","Strawberry","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 }
 
 export const quickstart = {
     src: quickstartpic,
     alt: "Quick Start",
-    ingredients: ["Strawberry","Orange","Whey Protein"],
+    ingredients: ["Strawberry","Orange","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 }
 
 export const sambazon = {
     src: sambazonpic,
     alt: "Sambazon",
-    ingredients: ["Acai","Strawberry","Cranberry","Almond Milk","Whey Protein"],
+    ingredients: ["Acai","Strawberry","Cranberry","Almond Milk","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
 }
 
 export const zonezinger = {
     src: zonezingerpic,
     alt: "Zone Zinger",
-    ingredients: ["Strawberry","Papaya","Lemon","Cranberry","Multi-Vitamin","Whey Protein"],
+    ingredients: ["Strawberry","Papaya","Lemon","Cranberry","Multi-Vitamin","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
 }
