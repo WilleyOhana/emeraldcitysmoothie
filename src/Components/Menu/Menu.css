@@ -1,5 +1,6 @@
 .Menu {
     background-color: rgb(236, 236, 236);
+    min-height: 100vh;
 }
 
 .Menu .Navbar {
@@ -14,4 +15,3 @@
     background-position: center;
     background-size: cover;
 }
-
