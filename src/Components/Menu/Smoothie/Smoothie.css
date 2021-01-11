@@ -1,20 +1,22 @@
 .Smoothie {
-    width: 45%;
-    margin-right: 5%;
-    padding-bottom: 20px;
-    align-items: center;
+    width: 44%;
+    margin-right: 20px;
+    margin-bottom: 20px;
     display: inline-flex;
+    border: solid 1px rgb(194, 194, 194);
+    border-radius: 3px;
 }
 
 .Smoothie .info {
-    width: 100%;
+    backdrop-filter: none;
+    width: 90%;
     border: none;
 }
 
 .Smoothie .img-container {
     vertical-align: bottom;
-    border-radius: 5px;
-    height: 150px;
+    border-radius: 3px 0px 0px 3px;
+    height: 130px;
     width: 25%;
     min-width: 70px;
 }
@@ -28,18 +30,24 @@
 .Smoothie h3, h4 {
     color: rgb(65, 65, 65);
     font-weight: normal;
-    padding-left: 7%;
+    padding-left: 2%;
     text-align: left;
 }
 
 .Smoothie h3 {
     margin-top: 0px;
     margin-bottom: 5px;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: bold;
 }
 
 .Smoothie h4 {
     color:rgb(65, 65, 65) !important;
-    font-size: 25px;
+    font-size: 21px;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; 
 }
