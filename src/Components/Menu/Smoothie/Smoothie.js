@@ -17,7 +17,7 @@ class Smoothie extends React.Component {
                 </div>
                 <div className="info">
                     <h3>{this.props.alt}</h3>
-                    <div className="line-clamp">
+                    <div className="truncate-overflow">
                         <h4>{this.listIngredients(this.props.ingredients)}</h4>
                     </div>
                 </div>

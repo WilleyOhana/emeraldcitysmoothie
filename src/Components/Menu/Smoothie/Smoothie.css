@@ -35,19 +35,20 @@
 }
 
 .Smoothie h3 {
-    margin-top: 0px;
-    margin-bottom: 5px;
-    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 23px;
     font-weight: bold;
 }
 
 .Smoothie h4 {
     color:rgb(65, 65, 65) !important;
-    font-size: 21px;
+    font-size: 20px;
 }
 
-.line-clamp {
+.truncate-overflow {
     display: -webkit-box;
     -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
