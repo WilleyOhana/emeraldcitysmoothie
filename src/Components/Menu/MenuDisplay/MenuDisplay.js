@@ -16,7 +16,6 @@ class MenuDisplay extends React.Component {
                                 smoothielist.guavasunrise,
                                 smoothielist.peanutpassion,
                                 smoothielist.powerfuel,
-                                smoothielist.raspberrydream,
                                 smoothielist.rejuvinator,
                                 smoothielist.southpacific,
                                 smoothielist.tropicalparadise,
@@ -45,6 +44,7 @@ class MenuDisplay extends React.Component {
                 <MenuSection 
                     name="boost my immune system"
                     smoothies={[smoothielist.acaifusion,
+                                smoothielist.raspberrydream,
                                 smoothielist.blueberryblast,
                                 smoothielist.immunitynectar,
                                 smoothielist.mangoberry,
