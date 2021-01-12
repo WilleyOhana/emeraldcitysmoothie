@@ -71,6 +71,22 @@
     padding-top: 12px;
 }
 
+@media screen and (max-width: 1250px) {
+    .Smoothie {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+}
+
 @media screen and (max-width: 980px) {
-    
+    .Smoothie {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Smoothie {
+        width: 88%;
+        margin-bottom: 10px;
+    }
 }
