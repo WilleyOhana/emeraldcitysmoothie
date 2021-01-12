@@ -2,7 +2,6 @@ import React from 'react';
 import './Menu.css';
 
 import Navbar from '../Navbar/Navbar';
-import MenuButtons from './MenuButtons/MenuButtons';
 import MenuDisplay from './MenuDisplay/MenuDisplay';
 
 class Menu extends React.Component {
