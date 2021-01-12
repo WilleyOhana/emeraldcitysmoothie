@@ -31,6 +31,18 @@ import marionberryfuelpic from './smoothiepics/marionberry-fuel.jpg';
 import quickstartpic from './smoothiepics/quick-start.jpg';
 import sambazonpic from './smoothiepics/sambazon.jpg';
 import zonezingerpic from './smoothiepics/zone-zinger.jpg';
+//Help Me Lose Weight
+import energizerpic from './smoothiepics/energizer.jpg';
+import fruitysupremepic from './smoothiepics/fruity-supreme.jpg';
+import islandbreezepic from './smoothiepics/island-breeze.jpg';
+import justpeachypic from './smoothiepics/just-peachy.jpg';
+import leanbodypic from './smoothiepics/lean-body.jpg';
+import lowcarbpbpic from './smoothiepics/low-carb-pb.jpg';
+import lowcarbflaxpic from './smoothiepics/low-carb-flax.jpg';
+import orangetwisterpic from './smoothiepics/orange-twister.jpg';
+import pacificsplashpic from './smoothiepics/pacific-splash.jpg';
+import pineappleblisspic from './smoothiepics/pineapple-bliss.jpg';
+import slimnfitpic from './smoothiepics/slim-n-fit.jpg';
 
 
 export const berryberry = {
@@ -235,4 +247,88 @@ export const zonezinger = {
     alt: "Zone Zinger",
     ingredients: ["Strawberry","Papaya","Lemon","Cranberry","Multi-Vitamin","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
+}
+
+export const energizer = {
+    src: energizerpic,
+    alt: "Energizer",
+    ingredients: ["Strawberry","Banana","Nonfat Milk","Energy","Fiber","Multi-Vitamin","Whey Protein"],
+    price: [6.25, 7.25]
+}
+
+export const fruitysupreme = {
+    src: fruitysupremepic,
+    alt: "Fruity Supreme",
+    ingredients: ["Strawberry","Banana","Nonfat Milk"],
+    price: [5.25, 6.25]
+}
+
+export const islandbreeze = {
+    src: islandbreezepic,
+    alt: "Island Breeze",
+    ingredients: ["Strawberry","Banana","Papaya"],
+    price: [5.25, 6.25]
+}
+
+export const justpeachy = {
+    src: justpeachypic,
+    alt: "Just Peachy",
+    ingredients: ["Strawberry","Peach","Papaya","Whey Protein"],
+    price: [5.75, 6.75]
+}
+
+export const leanbody = {
+    src: leanbodypic,
+    alt: "Lean Body",
+    ingredients: ["Nonfat Milk","Lean Body Protein","Banana"],
+    price: [6.00, 7.00]
+}
+
+export const leanout = {
+    src: lowcarbpbpic,
+    alt: "Lean Out",
+    ingredients: ["Nonfat Milk","Banana","Peanut Butter","Whey Protein"],
+    price: [6.00, 7.00]
+}
+
+export const lowcarbflax = {
+    src: lowcarbflaxpic,
+    alt: "Low Carb w/ Flax",
+    ingredients: ["Nonfat Milk","Banana","Flax Oil","Whey Protein"],
+    price: [6.25, 7.26]
+}
+
+export const lowcarbpb = {
+    src: lowcarbpbpic,
+    alt: "Low Carb w/ Peanut Butter",
+    ingredients: ["Nonfat Milk","Banana","Peanut Butter","Whey Protein"],
+    price: [6.25, 7.26]
+}
+
+export const orangetwister = {
+    src: orangetwisterpic,
+    alt: "Orange Twister",
+    ingredients: ["Orange","Banana","Energy","Whey Protein"],
+    price: [6.00, 7.00]
+}
+
+export const pacificsplash = {
+    src: pacificsplashpic,
+    alt: "Pacific Splash",
+    ingredients: ["Strawberry","Orange","Banana"],
+    price: [5.25, 6.25]
+}
+
+export const pineapplebliss = {
+    src: pineappleblisspic,
+    alt: "Pineapple Bliss",
+    ingredients: ["Pineapple","Banana","Orange","Papaya"],
+    price: [5.25, 6.25]
+}
+
+export const slimnfit = {
+    src: slimnfitpic,
+    alt: "Slim N Fit",
+    ingredients: ["Choice of Flavor","Banana","Fat Burner","Whey Protein"],
+    price: [5.75, 6.75]
 }
