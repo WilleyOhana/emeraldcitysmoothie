@@ -1,0 +1,106 @@
+.contact-background-image {
+    height: 100vh;
+    min-height: 937px;
+    background-color: rgb(64, 66, 77);
+    text-align: center;
+}
+
+.Contact {
+    color:rgb(231, 231, 231);
+}
+
+.Contact .Navbar {
+    margin-bottom: 0;
+}
+
+.Contact span {
+    font-size: 80px;
+}
+
+.Contact p {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.Contact hr {
+    margin: 20px;
+    border: dashed 2px rgb(140, 143, 155)
+}
+
+.Contact h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.Contact .container {
+    height: calc(100% - 110px - 35px);
+    width: 80%;
+    background-color: rgb(78, 80, 90);
+    padding-top: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+}
+
+.Contact .contact-info-container {
+    margin-top: 30px;
+    display: flex;
+    height: calc(100% - 275px);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Contact form {
+    display: block;
+    height: 100%;
+    width: 60%;
+}
+
+.Contact input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(26, 26, 26);
+    margin-top: 20px;
+    padding: 3px;
+    padding-left: 15px;
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+}
+
+.Contact input[type=submit] {
+    width: 200px;
+}
+
+.Contact .icon {
+    height: 40px;
+}
+
+.Contact textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(26, 26, 26);
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+    width: 80%;
+    height: 250px;
+    border: none;
+    border-radius: 6px;
+}
+
+.Contact .contact-info {
+    width: 40%;
+    height: 100%;
+    display: block;
+    background-color: red;
+}
+
+.Contact .address {
+    display: flex;
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+}
