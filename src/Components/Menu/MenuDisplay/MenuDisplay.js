@@ -68,7 +68,13 @@ class MenuDisplay extends React.Component {
                 });
                 break;
             case "showWeight":
-                this.setState({ showWeight: !this.state.showWeight });
+                this.setState({
+                    showNourish: false,
+                    showGreen: false,
+                    showBulk: false,
+                    showImmunity: false,
+                    showWeight: true
+                });;
                 break;
             default:
         }
