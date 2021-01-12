@@ -127,6 +127,22 @@ class MenuDisplay extends React.Component {
                                     smoothielist.zonezinger
                                 ]}
                     />}
+                    {showWeight && <MenuSection 
+                        name="help me lose weight"
+                        smoothies={[smoothielist.energizer,
+                                    smoothielist.fruitysupreme,
+                                    smoothielist.islandbreeze,
+                                    smoothielist.justpeachy,
+                                    smoothielist.leanbody,
+                                    smoothielist.leanout,
+                                    smoothielist.lowcarbflax,
+                                    smoothielist.lowcarbpb,
+                                    smoothielist.orangetwister,
+                                    smoothielist.pacificsplash,
+                                    smoothielist.pineapplebliss,
+                                    smoothielist.slimnfit
+                                ]}
+                    />}
                 </div>
             </div>
         )

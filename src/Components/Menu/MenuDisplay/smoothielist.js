@@ -252,28 +252,28 @@ export const zonezinger = {
 export const energizer = {
     src: energizerpic,
     alt: "Energizer",
-    ingredients: ["Strawberry","Banana","Nonfat Milk","Energy","Fiber","Multi-Vitamin","Whey Protein"],
+    ingredients: ["Strawberry","Banana","Nonfat Milk","Energy","Fiber","Multi-Vitamin","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.25, 7.25]
 }
 
 export const fruitysupreme = {
     src: fruitysupremepic,
     alt: "Fruity Supreme",
-    ingredients: ["Strawberry","Banana","Nonfat Milk"],
+    ingredients: ["Strawberry","Banana","Nonfat Milk *Gluten Free *Can be made vegan by request"],
     price: [5.25, 6.25]
 }
 
 export const islandbreeze = {
     src: islandbreezepic,
     alt: "Island Breeze",
-    ingredients: ["Strawberry","Banana","Papaya"],
+    ingredients: ["Strawberry","Banana","Papaya *Gluten Free *Vegan"],
     price: [5.25, 6.25]
 }
 
 export const justpeachy = {
     src: justpeachypic,
     alt: "Just Peachy",
-    ingredients: ["Strawberry","Peach","Papaya","Whey Protein"],
+    ingredients: ["Strawberry","Peach","Papaya","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 }
 
@@ -287,48 +287,48 @@ export const leanbody = {
 export const leanout = {
     src: lowcarbpbpic,
     alt: "Lean Out",
-    ingredients: ["Nonfat Milk","Banana","Peanut Butter","Whey Protein"],
+    ingredients: ["Nonfat Milk","Banana","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
 }
 
 export const lowcarbflax = {
     src: lowcarbflaxpic,
     alt: "Low Carb w/ Flax",
-    ingredients: ["Nonfat Milk","Banana","Flax Oil","Whey Protein"],
-    price: [6.25, 7.26]
+    ingredients: ["Nonfat Milk","Banana","Flax Oil","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [6.25, 7.25]
 }
 
 export const lowcarbpb = {
     src: lowcarbpbpic,
     alt: "Low Carb w/ Peanut Butter",
-    ingredients: ["Nonfat Milk","Banana","Peanut Butter","Whey Protein"],
-    price: [6.25, 7.26]
+    ingredients: ["Nonfat Milk","Banana","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [6.25, 7.25]
 }
 
 export const orangetwister = {
     src: orangetwisterpic,
     alt: "Orange Twister",
-    ingredients: ["Orange","Banana","Energy","Whey Protein"],
+    ingredients: ["Orange","Banana","Energy","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00]
 }
 
 export const pacificsplash = {
     src: pacificsplashpic,
     alt: "Pacific Splash",
-    ingredients: ["Strawberry","Orange","Banana"],
+    ingredients: ["Strawberry","Orange","Banana *Gluten Free *Vegan"],
     price: [5.25, 6.25]
 }
 
 export const pineapplebliss = {
     src: pineappleblisspic,
     alt: "Pineapple Bliss",
-    ingredients: ["Pineapple","Banana","Orange","Papaya"],
+    ingredients: ["Pineapple","Banana","Orange","Papaya *Gluten Free *Vegan"],
     price: [5.25, 6.25]
 }
 
 export const slimnfit = {
     src: slimnfitpic,
     alt: "Slim N Fit",
-    ingredients: ["Choice of Flavor","Banana","Fat Burner","Whey Protein"],
+    ingredients: ["Choice of Flavor","Banana","Fat Burner","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [5.75, 6.75]
 }
