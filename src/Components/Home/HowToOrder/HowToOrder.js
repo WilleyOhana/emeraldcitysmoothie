@@ -11,7 +11,7 @@ class HowToOrder extends React.Component {
                 <h1>how to order online</h1>
                 <div className="order-steps">
                     <div className="step">
-                        <h2>Select 'Order Now'</h2>
+                        <h2 style={{"margin-bottom": "50px"}}>Select 'Order Now'</h2>
                         <a href="/order" className="button order" id="order">Order Now</a>
                     </div>
                     <div>
