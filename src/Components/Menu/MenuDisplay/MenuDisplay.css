@@ -16,4 +16,9 @@
     .MenuDisplay {
         display: block;
     }
+
+    .MenuSectionDisplay {
+        width: 100%;
+        min-width: 0;
+    }
 }
