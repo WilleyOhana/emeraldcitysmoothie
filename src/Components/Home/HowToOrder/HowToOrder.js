@@ -12,7 +12,7 @@ class HowToOrder extends React.Component {
                 <div className="order-steps">
                     <div className="step">
                         <h2>Select 'Order Now'</h2>
-                        <a href="#order" className="button order" id="order">Order Now</a>
+                        <a href="/order" className="button order" id="order">Order Now</a>
                     </div>
                     <div>
                         <i className="arrow"></i>
