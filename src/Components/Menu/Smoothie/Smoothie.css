@@ -6,7 +6,7 @@
     display: inline-flex;
     border: solid 1px rgb(194, 194, 194);
     border-radius: 3px;
-    transition: 0.1s;
+    transition: 0.2s ease;
 }
 
 .Smoothie:hover {
@@ -50,7 +50,7 @@
 
 .Smoothie h4 {
     padding: 0;
-    color:rgb(65, 65, 65) !important;
+    color:rgb(95, 95, 95) !important;
     font-size: 15px;
 }
 
