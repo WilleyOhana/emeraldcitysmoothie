@@ -280,7 +280,7 @@ export const justpeachy = {
 export const leanbody = {
     src: leanbodypic,
     alt: "Lean Body",
-    ingredients: ["Nonfat Milk","Lean Body Protein","Banana"],
+    ingredients: ["Nonfat Milk","Lean Body Protein","Banana *Gluten Free"],
     price: [6.00, 7.00]
 }
 
