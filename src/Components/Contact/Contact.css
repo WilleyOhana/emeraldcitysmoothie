@@ -1,7 +1,6 @@
 .contact-background-image {
-    height: 100vh;
     min-height: 937px;
-    background-color: rgb(64, 66, 77);
+    background-color: rgb(75, 79, 104);
     text-align: center;
 }
 
@@ -34,9 +33,9 @@
 }
 
 .Contact .container {
-    height: calc(100% - 110px - 35px);
+    min-height: 791px;
     width: 80%;
-    background-color: rgb(78, 80, 90);
+    background-color: rgb(90, 94, 109);
     padding-top: 35px;
     margin-left: 10%;
     margin-right: 10%;
@@ -89,18 +88,16 @@
     height: 250px;
     border: none;
     border-radius: 6px;
+    resize: none;
 }
 
-.Contact .contact-info {
-    width: 40%;
-    height: 100%;
-    display: block;
-    background-color: red;
-}
+@media screen and (max-width: 980px) {
+    .Contact .contact-info-container {
+        display: block;
+    }
 
-.Contact .address {
-    display: flex;
-    margin-top: 20px;
-    background-color: black;
-    width: 100%;
+    .Contact form {
+        width: 100%;
+        margin-bottom: 80px;
+    }
 }
