@@ -1,5 +1,5 @@
 .contact-background-image {
-    min-height: 937px;
+    min-height: calc(100vh + 1px);
     background-color: rgb(75, 79, 104);
     text-align: center;
 }
@@ -35,7 +35,7 @@
 .Contact .container {
     min-height: 791px;
     width: 80%;
-    background-color: rgb(90, 94, 109);
+    background-color: rgb(90, 94, 119);
     padding-top: 35px;
     margin-left: 10%;
     margin-right: 10%;

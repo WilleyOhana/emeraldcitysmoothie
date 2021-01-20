@@ -22,13 +22,13 @@ class ContactInfo extends React.Component {
                 <div className="contact-section">
                     <img className="icon" src={telephoneicon} alt="telephone-icon"></img>
                     <div className="contact-text">
-                        360-647-2357
+                        360 - 647 - 2357
                     </div>
                 </div>
                 <div className="contact-section">
                     <img className="icon" src={emailicon} alt="email-icon"></img>
                     <div className="contact-text">
-                        ecsbellingham @ gmail.com
+                        ecs.bellingham @ gmail.com
                     </div>
                 </div>
                 <hr></hr>
