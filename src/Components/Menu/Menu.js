@@ -14,9 +14,22 @@ class Menu extends React.Component {
         };
 
         this.blurBackground = this.blurBackground.bind(this);
+        this.unblur = this.unblur.bind(this);
     }
 
     blurBackground() {
+        if(this.state.blurred === '') {
+            this.setState({
+                blurred: 'blurred'
+            });
+        } else {
+            this.setState({
+                blurred: ''
+            });
+        }
+    }
+
+    unblur() {
         if(this.state.blurred === '') {
             this.setState({
                 blurred: 'blurred'
@@ -34,7 +47,10 @@ class Menu extends React.Component {
                 <div className="menu-background-image">
                     <Navbar />
 
-                    <MenuDisplay blurBackground={this.blurBackground} />
+                    <MenuDisplay 
+                        blurBackground={this.blurBackground} 
+                        unblur={this.unblur}
+                    />
                 </div>
             </div>
         )

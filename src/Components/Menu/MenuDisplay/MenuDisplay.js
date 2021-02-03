@@ -97,6 +97,7 @@ class MenuDisplay extends React.Component {
                                     smoothielist.vegandream
                                 ]}
                         blurBackground={this.props.blurBackground}
+                        unblur={this.props.unblur}
                     />}
                     {showBulk && <MenuSection 
                         name="bulk me up"
@@ -106,7 +107,7 @@ class MenuDisplay extends React.Component {
                                     smoothielist.nuttybanana
                                 ]}
                         blurBackground={this.props.blurBackground}
-                
+                        unblur={this.props.unblur}
                     />}
                     {showNourish && <MenuSection 
                         name="nourish my body"
@@ -123,6 +124,7 @@ class MenuDisplay extends React.Component {
                                     smoothielist.zestylemon
                                 ]}
                         blurBackground={this.props.blurBackground}
+                        unblur={this.props.unblur}
                     />}
                     {showImmunity && <MenuSection 
                         name="boost my immune system"
@@ -137,6 +139,7 @@ class MenuDisplay extends React.Component {
                                     smoothielist.zonezinger
                                 ]}
                         blurBackground={this.props.blurBackground}
+                        unblur={this.props.unblur}
                     />}
                     {showWeight && <MenuSection 
                         name="help me lose weight"
@@ -154,6 +157,7 @@ class MenuDisplay extends React.Component {
                                     smoothielist.slimnfit
                                 ]}
                         blurBackground={this.props.blurBackground}
+                        unblur={this.props.unblur}
                     />}
                 </div>
             </div>

@@ -8,8 +8,9 @@ class Smoothie extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            displayInfo: ''
-        }
+            displayInfo: '',
+            close: ''
+        };
 
         this.showInfo = this.showInfo.bind(this);
     }
@@ -20,12 +21,7 @@ class Smoothie extends React.Component {
                 displayInfo: 'displayed'
             });
         }
-        else {
-            this.setState({
-                displayInfo: ''
-            });
-        }
-
+        
         this.props.blurBackground();
     }
 
@@ -64,7 +60,7 @@ class Smoothie extends React.Component {
                     </div>
                 </div>
 
-                <NutritionFacts className={this.state.displayInfo} />
+                <NutritionFacts className={this.state.displayInfo} unblur={this.props.unblur}/>
             </div>
         )
     }

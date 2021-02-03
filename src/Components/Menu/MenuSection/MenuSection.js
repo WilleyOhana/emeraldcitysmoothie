@@ -23,6 +23,7 @@ class MenuSection extends React.Component {
                         ingredients={smoothie.ingredients}
                         price={smoothie.price}
                         blurBackground={this.props.blurBackground}
+                        unblur={this.props.unblur}
                     />
         });
 
