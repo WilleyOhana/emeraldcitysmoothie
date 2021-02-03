@@ -1,7 +1,33 @@
 import React from 'react';
 import './Smoothie.css';
 
+import NutritionFacts from '../NutritionFacts/NutritionFacts';
+
 class Smoothie extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            displayInfo: ''
+        }
+
+        this.showInfo = this.showInfo.bind(this);
+    }
+
+    showInfo() {
+        if (this.state.displayInfo === '') {
+            this.setState({
+                displayInfo: 'displayed'
+            });
+        }
+        else {
+            this.setState({
+                displayInfo: ''
+            });
+        }
+
+        this.props.blurBackground();
+    }
 
     listIngredients(ingredients) {
         let list = ingredients.join(", ");
@@ -22,19 +48,23 @@ class Smoothie extends React.Component {
 
     render() {
         return (
-            <div className="Smoothie">
-                <div className="img-container">
-                    <img src={this.props.src} alt={this.props.alt}></img>
-                </div>
-                <div className="info">
-                    <h3>{this.props.alt}</h3>
-                    <div className="truncate-overflow">
-                        <h4>{this.listIngredients(this.props.ingredients)}</h4>
+            <div className="smoothie-container">
+                <div className="Smoothie" onClick={this.showInfo}>
+                    <div className="img-container">
+                        <img src={this.props.src} alt={this.props.alt}></img>
                     </div>
-                    <div className="prices">
-                        {this.listPrices(this.props.price)}
+                    <div className="info">
+                        <h3>{this.props.alt}</h3>
+                        <div className="truncate-overflow">
+                            <h4>{this.listIngredients(this.props.ingredients)}</h4>
+                        </div>
+                        <div className="prices">
+                            {this.listPrices(this.props.price)}
+                        </div>
                     </div>
                 </div>
+
+                <NutritionFacts className={this.state.displayInfo} />
             </div>
         )
     }

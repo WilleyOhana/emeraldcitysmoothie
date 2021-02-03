@@ -13,7 +13,8 @@ class MenuDisplay extends React.Component {
             showGreen: true,
             showBulk: true,
             showImmunity: true,
-            showWeight: true
+            showWeight: true,
+            blurred: ''
         }
 
         this.hideComponent = this.hideComponent.bind(this);
@@ -94,8 +95,8 @@ class MenuDisplay extends React.Component {
                                     smoothielist.peachesandgreens,
                                     smoothielist.zipzip,
                                     smoothielist.vegandream
-
                                 ]}
+                        blurBackground={this.props.blurBackground}
                     />}
                     {showBulk && <MenuSection 
                         name="bulk me up"
@@ -104,6 +105,8 @@ class MenuDisplay extends React.Component {
                                     smoothielist.megamass,
                                     smoothielist.nuttybanana
                                 ]}
+                        blurBackground={this.props.blurBackground}
+                
                     />}
                     {showNourish && <MenuSection 
                         name="nourish my body"
@@ -119,6 +122,7 @@ class MenuDisplay extends React.Component {
                                     smoothielist.mochabliss,
                                     smoothielist.zestylemon
                                 ]}
+                        blurBackground={this.props.blurBackground}
                     />}
                     {showImmunity && <MenuSection 
                         name="boost my immune system"
@@ -132,6 +136,7 @@ class MenuDisplay extends React.Component {
                                     smoothielist.sambazon,
                                     smoothielist.zonezinger
                                 ]}
+                        blurBackground={this.props.blurBackground}
                     />}
                     {showWeight && <MenuSection 
                         name="help me lose weight"
@@ -148,6 +153,7 @@ class MenuDisplay extends React.Component {
                                     smoothielist.pineapplebliss,
                                     smoothielist.slimnfit
                                 ]}
+                        blurBackground={this.props.blurBackground}
                     />}
                 </div>
             </div>

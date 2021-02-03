@@ -5,6 +5,16 @@ import Smoothie from '../Smoothie/Smoothie';
 
 class MenuSection extends React.Component {
 
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            blurred: ''
+        };
+
+        this.renderSmoothies = this.renderSmoothies.bind(this);
+    }
+
     renderSmoothies(smoothiesArray) {
         const smoothies = smoothiesArray.map(smoothie => {
             return <Smoothie 
@@ -12,6 +22,7 @@ class MenuSection extends React.Component {
                         alt={smoothie.alt}
                         ingredients={smoothie.ingredients}
                         price={smoothie.price}
+                        blurBackground={this.props.blurBackground}
                     />
         });
 

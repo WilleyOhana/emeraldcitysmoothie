@@ -6,3 +6,12 @@
 .Menu .Navbar {
     margin-bottom: 3%;
 }
+
+.Menu.blurred {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    background-color: rgb(221, 221, 221);
+}
