@@ -9,7 +9,6 @@
 
 .Menu.blurred {
     background-color: rgb(228, 228, 228);
-    height: calc(100vh + 1px);
     overflow: hidden;
     pointer-events: none !important;
 }
