@@ -42,7 +42,7 @@ class Smoothie extends React.Component {
     listPrices(prices) {
         let pricesString = "";
         if(prices.length === 1) {
-            pricesString = "32oz. $7.75"
+            pricesString = "32oz. $" + prices[0].toPrecision(3);
         } else {
             pricesString = "24oz. $" + prices[0].toPrecision(3) + " / 32oz. $" + prices[1].toPrecision(3);
         }
@@ -70,8 +70,9 @@ class Smoothie extends React.Component {
 
                 <NutritionFacts 
                     className={this.state.displayInfo} 
-                    unblur={this.props.unblur}
                     changeClose={this.changeClose}
+                    name={this.props.alt}
+                    ingredients={this.props.ingredients}
                 />
             </div>
         )

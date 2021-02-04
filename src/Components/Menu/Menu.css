@@ -8,7 +8,7 @@
 }
 
 .Menu.blurred {
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(202, 202, 202);
     overflow: hidden;
-    pointer-events: none !important;
+    pointer-events: none;
 }
