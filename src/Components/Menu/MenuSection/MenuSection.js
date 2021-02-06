@@ -18,6 +18,7 @@ class MenuSection extends React.Component {
     renderSmoothies(smoothiesArray) {
         const smoothies = smoothiesArray.map(smoothie => {
             return <Smoothie 
+                        key={smoothie.alt}
                         src={smoothie.src}
                         alt={smoothie.alt}
                         ingredients={smoothie.ingredients}
