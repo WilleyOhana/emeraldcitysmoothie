@@ -21,7 +21,6 @@ class MenuDisplay extends React.Component {
     }
 
     hideComponent(name) {
-        console.log(name);
         switch(name) {
             case "showComplete":
                 this.setState({
