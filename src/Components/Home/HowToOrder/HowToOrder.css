@@ -55,6 +55,10 @@
     white-space: nowrap;
 }
 
+.HowToOrder .order-now {
+    margin-bottom: 50px;
+}
+
 .step .button {
     white-space: nowrap;
     font-size: 200%;

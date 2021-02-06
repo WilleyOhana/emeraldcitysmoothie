@@ -5,7 +5,7 @@ class Favorite extends React.Component {
 
     listIngredients(ingredients) {
         let list = ingredients.map(ingredient => {
-            return <ul>{ingredient}</ul>;
+            return <ul key={ingredient}>{ingredient}</ul>;
         });
 
         return list;
