@@ -6,9 +6,41 @@ import smoothiepic from './the-emerald-nutr-facts.png';
 class NutritionFacts extends React.Component {
 
     listIngredients(ingredients) {
-        let list = ingredients.join(", ");
+        let i = 0;
+        let returnString = ""
+        
+        while(i < ingredients.length - 1) {
+            returnString += ingredients[i] + ", ";
+            i++;
+        }
 
-        return list;
+        returnString += ingredients[ingredients.length - 1].split("*")[0];
+
+        return returnString;
+    }
+
+    listAttributes(ingredient) {
+        let attributesArr = [];
+
+        if(ingredient.includes("*Gluten Free")) {
+            attributesArr.push("Gluten Free");
+        }
+        
+        if (ingredient.includes("*Vegan")) {
+            attributesArr.push("Vegan");
+        }
+        
+        if (ingredient.includes("*Can be made vegan by request")) {
+            attributesArr.push("Can be made vegan by request");
+        }
+
+        const attributes = attributesArr.map(attribute => {
+            return <li key={attribute}>{attribute}</li>;
+        });
+
+        return (
+            <ul>{attributes}</ul>
+        );
     }
 
     render() {
@@ -17,8 +49,10 @@ class NutritionFacts extends React.Component {
                 <div className="contents">
                     <div className="ingredients">
                         <h1>{this.props.name}</h1>
+                        <hr></hr>
                         <h2>Ingredients:</h2>
                         <p>{this.listIngredients(this.props.ingredients)}</p>
+                        {this.listAttributes(this.props.ingredients[this.props.ingredients.length - 1])}
                     </div>
                     <img src={smoothiepic} alt="nutrition facts"></img>
                 </div>
