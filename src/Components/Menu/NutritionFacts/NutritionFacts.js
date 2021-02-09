@@ -1,8 +1,6 @@
 import React from 'react';
 import './NutritionFacts.css';
 
-import smoothiepic from './the-emerald-nutr-facts.png';
-
 class NutritionFacts extends React.Component {
 
     listIngredients(ingredients) {
@@ -54,7 +52,7 @@ class NutritionFacts extends React.Component {
                         <p>{this.listIngredients(this.props.ingredients)}</p>
                         {this.listAttributes(this.props.ingredients[this.props.ingredients.length - 1])}
                     </div>
-                    <img src={smoothiepic} alt="nutrition facts"></img>
+                    <img src={this.props.nutrition} alt="nutrition facts"></img>
                 </div>
                 <button onClick={this.props.changeClose}><code>CLOSE</code></button>
             </div>
