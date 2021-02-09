@@ -73,6 +73,7 @@ class Smoothie extends React.Component {
                     changeClose={this.changeClose}
                     name={this.props.alt}
                     ingredients={this.props.ingredients}
+                    nutrition={this.props.nutrition}
                 />
             </div>
         )
