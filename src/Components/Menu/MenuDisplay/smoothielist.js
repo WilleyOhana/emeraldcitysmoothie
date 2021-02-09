@@ -1,5 +1,5 @@
 //Nourish My Body
-import berryberrypic from './smoothiepics/berry-berry.jpg';
+import berryberrypic from './smoothiepics/berry-berry.jpg'; import berryberrynutrfacts from './nutritionfacts/berry-berry-nutr-facts.png';
 import pbjpic from './smoothiepics/pbj.jpg';
 import coconutpassionpic from './smoothiepics/coconut-passion.jpg';
 import guavasunrisepic from './smoothiepics/guava-sunrise.jpg';
@@ -12,11 +12,11 @@ import tropicalparadisepic from './smoothiepics/tropical-paradise.jpg';
 import zestylemonpic from './smoothiepics/zesty-lemon.jpg';
 import mochablisspic from './smoothiepics/mocha-bliss.jpg';
 //Go Green
-import greengoddesspic from './smoothiepics/green-goddess.jpg';
-import theemeraldpic from './smoothiepics/the-emerald.jpg';
-import peachesandgreenspic from './smoothiepics/peaches-and-greens.jpg';
-import zipzippic from './smoothiepics/zip-zip.jpg';
-import vegandreampic from './smoothiepics/vegan-dream.jpg';
+import greengoddesspic from './smoothiepics/green-goddess.jpg'; import greengoddessnutrfacts from './nutritionfacts/green-goddess-nutr-facts.png';
+import theemeraldpic from './smoothiepics/the-emerald.jpg'; import theemeraldnutrfacts from './nutritionfacts/the-emerald-nutr-facts.png';
+import peachesandgreenspic from './smoothiepics/peaches-and-greens.jpg'; import peachesandgreensnutrfacts from './nutritionfacts/peaches-and-greens-nutr-facts.png';
+import zipzippic from './smoothiepics/zip-zip.jpg'; import zipzipnutrfacts from './nutritionfacts/zip-zip-nutr-facts.png';
+import vegandreampic from './smoothiepics/vegan-dream.jpg'; import vegandreamnutrfacts from './nutritionfacts/vegan-dream-nutr-facts.png';
 //Bulk Me Up
 import thebuilderpic from './smoothiepics/the-builder.jpg';
 import megamasspic from './smoothiepics/mega-mass.jpg';
@@ -44,291 +44,330 @@ import pacificsplashpic from './smoothiepics/pacific-splash.jpg';
 import pineappleblisspic from './smoothiepics/pineapple-bliss.jpg';
 import slimnfitpic from './smoothiepics/slim-n-fit.jpg';
 
+export const acaifusion = {
+    src: acaifusionpic,
+    alt: "Acai Fusion",
+    ingredients: ["Acai","Strawberry","Orange","Pineapple","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
+}
 
 export const berryberry = {
     src: berryberrypic,
     alt: "Berry Berry",
     ingredients: ["Blueberry","Raspberry","Strawberry","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
-}
-
-export const pbj = {
-    src: pbjpic,
-    alt: "PB&J",
-    ingredients: ["Blueberry","Raspberry","Marionberry","Strawberry","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.00, 7.00]
-}
-
-export const coconutpassion = {
-    src: coconutpassionpic,
-    alt: "Coconut Passion",
-    ingredients: ["Pineapple","Banana","Coconut","Almonds","Nonfat milk","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
-}
-
-export const guavasunrise = {
-    src: guavasunrisepic,
-    alt: "Guava Sunrise",
-    ingredients: ["Raspberry","Strawberry","Orange","Guava", "Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
-
-}
-
-export const peanutpassion = {
-    src: peanutpassionpic,
-    alt: "Peanut Passion",
-    ingredients: ["Strawberry","Banana","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.00, 7.00]
-}
-
-export const powerfuel = {
-    src: powerfuelpic,
-    alt: "Power Fuel",
-    ingredients: ["Strawberry","Banana","Recovery","Whey Protein *Gluten Free"],
-    price: [6.00, 7.00]
-}
-
-export const raspberrydream = {
-    src: raspberrydreampic,
-    alt: "Raspberry Dream",
-    ingredients: ["Raspberry","Strawberry","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
-}
-
-export const rejuvinator = {
-    src: rejuvinatorpic,
-    alt: "Rejuvinator",
-    ingredients: ["Strawberry","Nonfat Milk","Multi-Vitamin","Banana","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.00, 7.00]
-}
-
-export const southpacific = {
-    src: southpacificpic,
-    alt: "South Pacific",
-    ingredients: ["Strawberry","Nonfat Milk","Banana","Pineapple","Coconut *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
-}
-
-export const tropicalparadise = {
-    src: tropicalparadisepic,
-    alt: "Tropical Paradise",
-    ingredients: ["Pineapple","Kiwi","Banana","Nonfat Milk","Whey Protein","Orange *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
-}
-
-export const mochabliss = {
-    src: mochablisspic,
-    alt: "Mocha Bliss",
-    ingredients: ["Almond Milk","Chocolate","Mocha","Nonfat Milk","Whey Protein *Gluten Free"],
-    price: [6.00, 7.00]
-}
-
-export const zestylemon = {
-    src: zestylemonpic,
-    alt: "Zesty Lemon",
-    ingredients: ["Strawberry","Lemon","Nonfat Milk","Whey Protein *Gluten Free"],
-    price: [5.75, 6.75]
-}
-
-export const greengoddess = {
-    src: greengoddesspic,
-    alt: "Green Goddess",
-    ingredients: ["Spinach","Apple","Pineapple","Soy Milk","Immunity *Gluten Free *Vegan"],
-    price: [5.75, 6.75]
-}
-
-export const theemerald = {
-    src: theemeraldpic,
-    alt: "The Emerald",
-    ingredients: ["Spinach","Kale","Blueberry","Strawberry","Banana","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.00, 7.00]
-}
-
-export const peachesandgreens = {
-    src: peachesandgreenspic,
-    alt: "Peaches and Greens",
-    ingredients: ["Peach","Spinach","Banana","Chia","Almonds *Gluten Free *Vegan"],
-    price: [5.75, 6.75]
-}
-
-export const zipzip = {
-    src: zipzippic,
-    alt: "Zip Zip",
-    ingredients: ["Soy Milk","Apple","Banana","Whey Protein","Bee Sure *Gluten Free"],
-    price: [6.00, 7.00]
-}
-
-export const vegandream = {
-    src: vegandreampic,
-    alt: "Vegan Dream",
-    ingredients: ["Spinach","Strawberry","Banana","Chia","Vegan Protein *Gluten Free *Vegan"],
-    price: [6.00, 7.00]
-}
-
-export const thebuilder = {
-    src: thebuilderpic,
-    alt: "The Builder",
-    ingredients: ["Choice of Flavor","Ice Cream","Peanut Butter","Banana","Gainer","Whey Protein *Gluten Free"],
-    price: [7.75]
-}
-
-export const minimass = {
-    src: minimasspic,
-    alt: "Mini Mass",
-    ingredients: ["Choice of Flavor","Ice Cream","Banana","Whey Protein *Gluten Free"],
-    price: [5.75, 6.75]
-}
-
-export const megamass = {
-    src: megamasspic,
-    alt: "Mega Mass",
-    ingredients: ["Choice of Flavor","Ice Cream","Banana","Gainer","Whey Protein *Gluten Free"],
-    price: [6.25, 7.25]
-}
-
-export const nuttybanana = {
-    src: nuttybananapic,
-    alt: "Nutty Banana",
-    ingredients: ["Banana","Nonfat Milk","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.00, 7.00]
-}
-
-export const acaifusion = {
-    src: acaifusionpic,
-    alt: "Acai Fusion",
-    ingredients: ["Acai","Strawberry","Orange","Pineapple","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.00, 7.00]
+    price: [5.75, 6.75],
+    nutrition: berryberrynutrfacts
 }
 
 export const blueberryblast = {
     src: blueberryblastpic,
     alt: "Blueberry Blast",
     ingredients: ["Blueberry","Strawberry","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
 }
 
-export const immunitynectar = {
-    src: immunitynectarpic,
-    alt: "Immunity Nectar",
-    ingredients: ["Strawberry","Cranberry","Banana","Immunity","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
-}
-
-export const mangoberry = {
-    src: mangoberrypic,
-    alt: "Mango Berry",
-    ingredients: ["Strawberry","Mango","Banana","Multi-Vitamin","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.00, 7.00]
-}
-
-export const marionberryfuel = {
-    src: marionberryfuelpic,
-    alt: "Marionberry Fuel",
-    ingredients: ["Marionberry","Strawberry","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
-}
-
-export const quickstart = {
-    src: quickstartpic,
-    alt: "Quick Start",
-    ingredients: ["Strawberry","Orange","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
-}
-
-export const sambazon = {
-    src: sambazonpic,
-    alt: "Sambazon",
-    ingredients: ["Acai","Strawberry","Cranberry","Almond Milk","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.00, 7.00]
-}
-
-export const zonezinger = {
-    src: zonezingerpic,
-    alt: "Zone Zinger",
-    ingredients: ["Strawberry","Papaya","Lemon","Cranberry","Multi-Vitamin","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.00, 7.00]
+export const coconutpassion = {
+    src: coconutpassionpic,
+    alt: "Coconut Passion",
+    ingredients: ["Pineapple","Banana","Coconut","Almonds","Nonfat milk","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
 }
 
 export const energizer = {
     src: energizerpic,
     alt: "Energizer",
-    ingredients: ["Strawberry","Banana","Nonfat Milk","Energy","Fiber","Multi-Vitamin","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.25, 7.25]
+    ingredients: ["Strawberry","Banana","Nonfat Milk","Energy","Fiber","Multi-Vitamin","Whey Protein *Can be made vegan by request"],
+    price: [6.25, 7.25],
+    nutrition: greengoddessnutrfacts
 }
 
 export const fruitysupreme = {
     src: fruitysupremepic,
     alt: "Fruity Supreme",
     ingredients: ["Strawberry","Banana","Nonfat Milk *Gluten Free *Can be made vegan by request"],
-    price: [5.25, 6.25]
+    price: [5.25, 6.25],
+    nutrition: greengoddessnutrfacts
+}
+
+export const greengoddess = {
+    src: greengoddesspic,
+    alt: "Green Goddess",
+    ingredients: ["Spinach","Apple","Pineapple","Soy Milk","Immunity *Gluten Free *Vegan"],
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
+}
+
+export const guavasunrise = {
+    src: guavasunrisepic,
+    alt: "Guava Sunrise",
+    ingredients: ["Raspberry","Strawberry","Orange","Guava", "Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
+}
+
+export const immunitynectar = {
+    src: immunitynectarpic,
+    alt: "Immunity Nectar",
+    ingredients: ["Strawberry","Cranberry","Banana","Immunity","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
 }
 
 export const islandbreeze = {
     src: islandbreezepic,
     alt: "Island Breeze",
     ingredients: ["Strawberry","Banana","Papaya *Gluten Free *Vegan"],
-    price: [5.25, 6.25]
+    price: [5.25, 6.25],
+    nutrition: greengoddessnutrfacts
 }
 
 export const justpeachy = {
     src: justpeachypic,
     alt: "Just Peachy",
     ingredients: ["Strawberry","Peach","Papaya","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
 }
 
 export const leanbody = {
     src: leanbodypic,
     alt: "Lean Body",
     ingredients: ["Nonfat Milk","Lean Body Protein","Banana *Gluten Free"],
-    price: [6.00, 7.00]
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
 }
 
 export const leanout = {
     src: lowcarbpbpic,
     alt: "Lean Out",
     ingredients: ["Nonfat Milk","Banana","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.00, 7.00]
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
 }
 
 export const lowcarbflax = {
     src: lowcarbflaxpic,
     alt: "Low Carb w/ Flax",
     ingredients: ["Nonfat Milk","Banana","Flax Oil","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.25, 7.25]
+    price: [6.25, 7.25],
+    nutrition: greengoddessnutrfacts
 }
 
 export const lowcarbpb = {
     src: lowcarbpbpic,
     alt: "Low Carb w/ Peanut Butter",
     ingredients: ["Nonfat Milk","Banana","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.25, 7.25]
+    price: [6.25, 7.25],
+    nutrition: greengoddessnutrfacts
+}
+
+export const mangoberry = {
+    src: mangoberrypic,
+    alt: "Mango Berry",
+    ingredients: ["Strawberry","Mango","Banana","Multi-Vitamin","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
+}
+
+export const marionberryfuel = {
+    src: marionberryfuelpic,
+    alt: "Marionberry Fuel",
+    ingredients: ["Marionberry","Strawberry","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
+}
+
+export const minimass = {
+    src: minimasspic,
+    alt: "Mini Mass",
+    ingredients: ["Choice of Flavor","Ice Cream","Banana","Whey Protein *Gluten Free"],
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
+}
+
+export const megamass = {
+    src: megamasspic,
+    alt: "Mega Mass",
+    ingredients: ["Choice of Flavor","Ice Cream","Banana","Gainer","Whey Protein *Gluten Free"],
+    price: [6.25, 7.25],
+    nutrition: greengoddessnutrfacts
+}
+
+export const mochabliss = {
+    src: mochablisspic,
+    alt: "Mocha Bliss",
+    ingredients: ["Almond Milk","Chocolate","Mocha","Nonfat Milk","Whey Protein *Gluten Free"],
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
+}
+
+export const nuttybanana = {
+    src: nuttybananapic,
+    alt: "Nutty Banana",
+    ingredients: ["Banana","Nonfat Milk","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
 }
 
 export const orangetwister = {
     src: orangetwisterpic,
     alt: "Orange Twister",
     ingredients: ["Orange","Banana","Energy","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [6.00, 7.00]
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
 }
 
 export const pacificsplash = {
     src: pacificsplashpic,
     alt: "Pacific Splash",
     ingredients: ["Strawberry","Orange","Banana *Gluten Free *Vegan"],
-    price: [5.25, 6.25]
+    price: [5.25, 6.25],
+    nutrition: greengoddessnutrfacts
+}
+
+export const pbj = {
+    src: pbjpic,
+    alt: "PB&J",
+    ingredients: ["Blueberry","Raspberry","Marionberry","Strawberry","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
+}
+
+export const peachesandgreens = {
+    src: peachesandgreenspic,
+    alt: "Peaches and Greens",
+    ingredients: ["Peach","Spinach","Banana","Chia","Almonds *Gluten Free *Vegan"],
+    price: [5.75, 6.75],
+    nutrition: peachesandgreensnutrfacts
+}
+
+export const peanutpassion = {
+    src: peanutpassionpic,
+    alt: "Peanut Passion",
+    ingredients: ["Strawberry","Banana","Peanut Butter","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
 }
 
 export const pineapplebliss = {
     src: pineappleblisspic,
     alt: "Pineapple Bliss",
     ingredients: ["Pineapple","Banana","Orange","Papaya *Gluten Free *Vegan"],
-    price: [5.25, 6.25]
+    price: [5.25, 6.25],
+    nutrition: greengoddessnutrfacts
+}
+
+export const powerfuel = {
+    src: powerfuelpic,
+    alt: "Power Fuel",
+    ingredients: ["Strawberry","Banana","Recovery","Whey Protein *Gluten Free"],
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
+}
+
+export const quickstart = {
+    src: quickstartpic,
+    alt: "Quick Start",
+    ingredients: ["Strawberry","Orange","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
+}
+
+export const raspberrydream = {
+    src: raspberrydreampic,
+    alt: "Raspberry Dream",
+    ingredients: ["Raspberry","Strawberry","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
+}
+
+export const rejuvinator = {
+    src: rejuvinatorpic,
+    alt: "Rejuvinator",
+    ingredients: ["Strawberry","Nonfat Milk","Multi-Vitamin","Banana","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
+}
+
+export const sambazon = {
+    src: sambazonpic,
+    alt: "Sambazon",
+    ingredients: ["Acai","Strawberry","Cranberry","Almond Milk","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
 }
 
 export const slimnfit = {
     src: slimnfitpic,
     alt: "Slim N Fit",
     ingredients: ["Choice of Flavor","Banana","Fat Burner","Whey Protein *Gluten Free *Can be made vegan by request"],
-    price: [5.75, 6.75]
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
+}
+
+export const southpacific = {
+    src: southpacificpic,
+    alt: "South Pacific",
+    ingredients: ["Strawberry","Nonfat Milk","Banana","Pineapple","Coconut *Gluten Free *Can be made vegan by request"],
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
+}
+
+export const thebuilder = {
+    src: thebuilderpic,
+    alt: "The Builder",
+    ingredients: ["Choice of Flavor","Ice Cream","Peanut Butter","Banana","Gainer","Whey Protein *Gluten Free"],
+    price: [7.75],
+    nutrition: greengoddessnutrfacts
+}
+
+export const theemerald = {
+    src: theemeraldpic,
+    alt: "The Emerald",
+    ingredients: ["Spinach","Kale","Blueberry","Strawberry","Banana","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [6.00, 7.00],
+    nutrition: theemeraldnutrfacts
+}
+
+export const tropicalparadise = {
+    src: tropicalparadisepic,
+    alt: "Tropical Paradise",
+    ingredients: ["Pineapple","Kiwi","Banana","Nonfat Milk","Whey Protein","Orange *Gluten Free *Can be made vegan by request"],
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
+}
+
+export const vegandream = {
+    src: vegandreampic,
+    alt: "Vegan Dream",
+    ingredients: ["Spinach","Strawberry","Banana","Chia","Vegan Protein *Gluten Free *Vegan"],
+    price: [6.00, 7.00],
+    nutrition: vegandreamnutrfacts
+}
+
+export const zestylemon = {
+    src: zestylemonpic,
+    alt: "Zesty Lemon",
+    ingredients: ["Strawberry","Lemon","Nonfat Milk","Whey Protein *Gluten Free"],
+    price: [5.75, 6.75],
+    nutrition: greengoddessnutrfacts
+}
+
+export const zipzip = {
+    src: zipzippic,
+    alt: "Zip Zip",
+    ingredients: ["Soy Milk","Apple","Banana","Whey Protein","Bee Sure *Gluten Free"],
+    price: [6.00, 7.00],
+    nutrition: zipzipnutrfacts
+}
+
+export const zonezinger = {
+    src: zonezingerpic,
+    alt: "Zone Zinger",
+    ingredients: ["Strawberry","Papaya","Lemon","Cranberry","Multi-Vitamin","Whey Protein *Gluten Free *Can be made vegan by request"],
+    price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
 }
