@@ -22,6 +22,7 @@ class MenuSection extends React.Component {
                         src={smoothie.src}
                         alt={smoothie.alt}
                         ingredients={smoothie.ingredients}
+                        nutrition={smoothie.nutrition}
                         price={smoothie.price}
                         blurBackground={this.props.blurBackground}
                         unblur={this.props.unblur}
