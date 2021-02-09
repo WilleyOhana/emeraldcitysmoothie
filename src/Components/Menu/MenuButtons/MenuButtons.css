@@ -22,6 +22,11 @@
     color: white;
 }
 
+.MenuButtons button.blurred {
+    background-color:rgb(88, 155, 172);
+    color: rgb(228, 228, 228);
+}
+
 .MenuButtons button:hover {
     cursor: pointer;
     background-color:rgb(136, 214, 233);
