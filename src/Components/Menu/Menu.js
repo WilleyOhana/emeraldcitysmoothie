@@ -45,11 +45,15 @@ class Menu extends React.Component {
         return (
             <div className={`Menu ${this.state.blurred}`}>
                 <div className="menu-background-image">
+                <div className="mid-decor"></div>
+                    <div className="left-decor"></div>
+                    <div className="right-decor"></div>
                     <Navbar />
 
                     <MenuDisplay 
                         blurBackground={this.blurBackground} 
                         unblur={this.unblur}
+                        dim={this.state.blurred}
                     />
                 </div>
             </div>
