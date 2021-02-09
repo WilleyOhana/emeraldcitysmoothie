@@ -85,7 +85,11 @@ class MenuDisplay extends React.Component {
 
         return (
             <div className="MenuDisplay">
-                <MenuButtons hideComponent={this.hideComponent}/>
+                <MenuButtons 
+                    hideComponent={this.hideComponent}
+                    blurBackground={this.props.blurBackground}
+                    dim={this.props.dim}
+                />
                 <div className="MenuSectionDisplay">
                     {showGreen && <MenuSection
                         name="go green"
