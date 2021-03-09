@@ -33,3 +33,13 @@
       transform: translateY(0%); 
     }
 }
+
+@media screen and (max-width: 980px) {
+  .ecs-title h1 {
+    font-size: 80px;
+  }
+
+  .ecs-description h2 {
+    font-size: 28px;
+  }
+}
