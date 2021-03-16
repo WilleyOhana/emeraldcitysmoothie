@@ -38,3 +38,9 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .Favorites h1 {
+        font-size: 65px;
+    }
+}
+
