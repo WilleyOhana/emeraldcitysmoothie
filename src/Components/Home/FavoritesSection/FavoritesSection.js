@@ -11,7 +11,7 @@ class Favorites extends React.Component {
     render() {
         return (
             <div className="Favorites">
-                <h1>F a v o r i t e s</h1>
+                <h1>Favorites</h1>
                 <Favorite 
                     src={fav1} 
                     name="The Emerald"

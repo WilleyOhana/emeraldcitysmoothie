@@ -1,6 +1,5 @@
 .Favorites {
-    width: 80%;
-    height: 1000px;
+    width: 100%;
     min-height: 900px;
     background: linear-gradient(
         rgba(177, 177, 177, 0.5),
@@ -10,9 +9,8 @@
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding-top: 4%;
-    padding-left: 10%;
-    padding-right: 10%;
+    display: flexbox;
+    justify-content: space-around;
 }
 
 .Favorites h1 {
@@ -20,15 +18,24 @@
     margin: 0;
     color: white;
     font-size: 90px;
-    margin-bottom: 20px;
+    padding: 20px;
+    letter-spacing: 0.5em;
 }
 
 @media screen and (max-width: 1200px) {
     .Favorites {
         min-height: 1700px;
-        width: 90%;
-        padding-left: 5%;
-        padding-right: 5%;
+        width: 100%;
+    }
+
+    .Favorites h1 {
+        letter-spacing: 0.2em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Favorites h1 {
+        letter-spacing: 0em;
     }
 }
 

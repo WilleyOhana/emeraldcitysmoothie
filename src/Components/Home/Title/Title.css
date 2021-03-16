@@ -43,3 +43,13 @@
     font-size: 28px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .ecs-title h1 {
+    font-size: 60px;
+  }
+
+  .ecs-description h2 {
+    font-size: 24px;
+  }
+}

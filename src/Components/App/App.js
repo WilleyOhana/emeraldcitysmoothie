@@ -10,7 +10,7 @@ import Order from '../Order/Order';
 class App extends React.Component {
   render() {
     return (
-      <div className ="App">
+      <div>
         <Router basename={"/emeraldcitysmoothie"}>
           <Switch>
             <Route path="/" exact component = {() => <Home />} />
