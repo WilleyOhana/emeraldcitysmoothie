@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/emeraldcitysmoothie/static/css/main.2de211c2.chunk.css",
-    "main.js": "/emeraldcitysmoothie/static/js/main.c1bf9a9a.chunk.js",
-    "main.js.map": "/emeraldcitysmoothie/static/js/main.c1bf9a9a.chunk.js.map",
+    "main.js": "/emeraldcitysmoothie/static/js/main.752f17bc.chunk.js",
+    "main.js.map": "/emeraldcitysmoothie/static/js/main.752f17bc.chunk.js.map",
     "runtime-main.js": "/emeraldcitysmoothie/static/js/runtime-main.27f0857b.js",
     "runtime-main.js.map": "/emeraldcitysmoothie/static/js/runtime-main.27f0857b.js.map",
     "static/js/2.53650de5.chunk.js": "/emeraldcitysmoothie/static/js/2.53650de5.chunk.js",
@@ -76,6 +76,6 @@
     "static/js/runtime-main.27f0857b.js",
     "static/js/2.53650de5.chunk.js",
     "static/css/main.2de211c2.chunk.css",
-    "static/js/main.c1bf9a9a.chunk.js"
+    "static/js/main.752f17bc.chunk.js"
   ]
 }
