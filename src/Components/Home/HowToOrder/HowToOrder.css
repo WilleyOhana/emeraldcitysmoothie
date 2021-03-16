@@ -92,7 +92,7 @@
         margin-bottom: 20px;
     }
 
-    .HowToOrder .step h2 {
+    .HowToOrder h2 {
         font-size: 25px;
     }
 
@@ -118,5 +118,23 @@
         margin: 30px;
         border-width: 0 4px 4px 0;
         padding: 8px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .HowToOrder h1 {
+        font-size: 32px;
+    }
+
+    .HowToOrder .smoothie-img-style {
+        max-width: 160px;
+    }
+
+    .HowToOrder .booster-img-style {
+        max-width: 180px;
+    }
+
+    .HowToOrder h2 {
+        font-size: 22px;
     }
 }
