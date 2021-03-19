@@ -24,3 +24,21 @@ hr {
 .MenuSection.blurred {
     background-color: gray;
 }
+
+@media screen and (max-width: 900px) {
+    .section-name {
+        text-align: right;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .SmoothiesContainer {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .section-name {
+        font-size: 40px;
+    }
+}
