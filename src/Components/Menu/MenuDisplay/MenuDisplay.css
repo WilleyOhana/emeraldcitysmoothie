@@ -4,7 +4,6 @@
 
 .MenuSectionDisplay {
     width: 70%;
-    min-width: 950px;
     padding: 10px;
     margin-left: 4%;
     border-radius: 4px;
@@ -20,5 +19,13 @@
     .MenuSectionDisplay {
         width: 100%;
         min-width: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .MenuSectionDisplay {
+        padding: 0;
+        margin: 0;
     }
 }
