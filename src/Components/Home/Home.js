@@ -10,7 +10,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="Home">
-          <div className="home-background-image">
+          <div id="home-screen" className="home-background-image">
             <Navbar />
             <Title />
           </div>

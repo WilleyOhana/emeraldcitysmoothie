@@ -8,22 +8,19 @@ import logo from './ECSCircleLogo.jpg';
 class Navbar extends React.Component {
 
     displayDropdown() {
-        let Navbar = document.getElementById('Navbar');
 
-        if(Navbar.classList.contains('responsive')) {
-            Navbar.classList.remove('responsive');
-        } else {
-            Navbar.classList.add('responsive');
-        }
-
+        //Make dropdown contents disappear or appear
         let dropdownContents = document.getElementById('responsive-contents');
-        
+        let homeScreen = document.getElementById('home-screen');
+
         if(dropdownContents.classList.contains('off')) {
             dropdownContents.classList.remove('off');
             dropdownContents.classList.add('on');
+            homeScreen.style.minHeight = "800px";
         } else {
             dropdownContents.classList.remove('on');
             dropdownContents.classList.add('off');
+            homeScreen.style.minHeight = "600px";
         }
     }
 
