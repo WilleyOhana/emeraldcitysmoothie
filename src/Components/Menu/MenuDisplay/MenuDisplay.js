@@ -91,7 +91,8 @@ class MenuDisplay extends React.Component {
                     showImmunity: false,
                     showWeight: false,
                     showBowls: true
-                })
+                });
+                break;
             default:
         }
     }
