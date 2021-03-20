@@ -14,6 +14,7 @@ class MenuDisplay extends React.Component {
             showBulk: true,
             showImmunity: true,
             showWeight: true,
+            showBowls: true,
             blurred: ''
         }
 
@@ -28,7 +29,8 @@ class MenuDisplay extends React.Component {
                     showGreen: true,
                     showBulk: true,
                     showImmunity: true,
-                    showWeight: true
+                    showWeight: true,
+                    showBowls: true
                 });
                 break;
             case "showNourish":
@@ -37,7 +39,8 @@ class MenuDisplay extends React.Component {
                     showGreen: false,
                     showBulk: false,
                     showImmunity: false,
-                    showWeight: false
+                    showWeight: false,
+                    showBowls: false
                 });
                 break;
             case "showGreen":
@@ -46,7 +49,8 @@ class MenuDisplay extends React.Component {
                     showGreen: true,
                     showBulk: false,
                     showImmunity: false,
-                    showWeight: false
+                    showWeight: false,
+                    showBowls: false
                 });
                 break;
             case "showBulk":
@@ -55,7 +59,8 @@ class MenuDisplay extends React.Component {
                     showGreen: false,
                     showBulk: true,
                     showImmunity: false,
-                    showWeight: false
+                    showWeight: false,
+                    showBowls: false
                 });
                 break;
             case "showImmunity":
@@ -64,7 +69,8 @@ class MenuDisplay extends React.Component {
                     showGreen: false,
                     showBulk: false,
                     showImmunity: true,
-                    showWeight: false
+                    showWeight: false,
+                    showBowls: false
                 });
                 break;
             case "showWeight":
@@ -73,15 +79,25 @@ class MenuDisplay extends React.Component {
                     showGreen: false,
                     showBulk: false,
                     showImmunity: false,
-                    showWeight: true
-                });;
+                    showWeight: true,
+                    showBowls: false
+                });
                 break;
+            case "showBowls":
+                this.setState({
+                    showNourish: false,
+                    showGreen: false,
+                    showBulk: false,
+                    showImmunity: false,
+                    showWeight: false,
+                    showBowls: true
+                })
             default:
         }
     }
 
     render () {
-        const { showNourish, showGreen, showBulk, showImmunity, showWeight } = this.state;
+        const { showNourish, showGreen, showBulk, showImmunity, showWeight, showBowls } = this.state;
 
         return (
             <div className="MenuDisplay">
@@ -158,6 +174,16 @@ class MenuDisplay extends React.Component {
                                     smoothielist.pacificsplash,
                                     smoothielist.pineapplebliss,
                                     smoothielist.slimnfit
+                                ]}
+                        blurBackground={this.props.blurBackground}
+                        unblur={this.props.unblur}
+                    />}
+                    {showBowls && <MenuSection 
+                        name="acai bowls"
+                        smoothies={[smoothielist.bananaberrycrunch,
+                                    smoothielist.healthnut,
+                                    smoothielist.tropicalsunrise,
+                                    smoothielist.veganberryblast
                                 ]}
                         blurBackground={this.props.blurBackground}
                         unblur={this.props.unblur}
