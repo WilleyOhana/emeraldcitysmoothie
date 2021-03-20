@@ -58,6 +58,42 @@
     border-radius: 50%;
 }
 
+
+
+.Navbar .hamburger {
+    width: 30px;
+    height: 28px;
+    display: none;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Navbar .hamburger:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+/* Responsive Navbar */
+.Navbar .responsive-contents.on {
+    background-color: white;
+    display: block;
+    padding: 0px 0px 10px 0px;
+}
+
+.Navbar .responsive-contents.on a {
+    display: block;
+    margin: 8px 0px;
+}
+
+.Navbar .responsive-contents.off {
+    display: none;
+}
+
+.Navbar .responsive-contents.on hr {
+    margin: 0;
+}
+
 @media screen and (max-width: 980px) {
     .logo {
         display: none;
@@ -78,5 +114,25 @@
     .button {
         font-size: 25px;
         min-width: 90px;
+    }
+}
+
+/* Display hamburger icon in Navbar */
+@media screen and (max-width: 450px) {
+    .Navbar {
+        display: block;
+        height: auto;
+    }
+
+    .Navbar .contents a {
+        display: none;
+    }
+
+    .Navbar .contents a:last-child {
+        display: inline;
+    }
+
+    .Navbar .hamburger {
+        display: inline;
     }
 }
