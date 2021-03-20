@@ -23,7 +23,9 @@
 
 .Contact .container hr {
     margin: 20px;
-    border: dashed 2px rgb(140, 143, 155)
+    border: dashed 2px rgb(140, 143, 155);
+    background-color:rgb(90, 94, 119);
+    height: 0px;
 }
 
 .Contact h2 {
