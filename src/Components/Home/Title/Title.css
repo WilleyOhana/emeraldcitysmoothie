@@ -45,6 +45,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .ecs-description, .ecs-title {
+    animation: none;
+  }
+
   .ecs-title h1 {
     font-size: 60px;
   }
