@@ -41,18 +41,31 @@ class NutritionFacts extends React.Component {
         );
     }
 
+    displayNutritionFacts(smoothieName) {
+        if(document.getElementById(`${smoothieName} ingredients`).style.display === "none") {
+            document.getElementById(`${smoothieName} ingredients`).style.display = "block";
+            document.getElementById(`${smoothieName} nutritionfacts`).style.display = "none";
+            document.getElementById(`${smoothieName} toggle`).innerHTML = "Nutrition Facts";
+        } else {
+            document.getElementById(`${smoothieName} ingredients`).style.display = "none";
+            document.getElementById(`${smoothieName} nutritionfacts`).style.display = "block";
+            document.getElementById(`${smoothieName} toggle`).innerHTML = "Ingredients";
+        }
+    }
+
     render() {
         return (
             <div className={`NutritionFacts ${ this.props.className }`}>
                 <div className="contents">
-                    <div className="ingredients">
+                    <div id={`${this.props.name} ingredients`} className="ingredients">
                         <h1>{this.props.name}</h1>
                         <hr></hr>
                         <h2>Ingredients:</h2>
                         <p>{this.listIngredients(this.props.ingredients)}</p>
                         {this.listAttributes(this.props.ingredients[this.props.ingredients.length - 1])}
                     </div>
-                    <img src={this.props.nutrition} alt="nutrition facts"></img>
+                    <img id={`${this.props.name} nutritionfacts`} src={this.props.nutrition} alt="nutrition facts"></img>
+                    <button id={`${this.props.name} toggle`} onClick={() => this.displayNutritionFacts(this.props.name)}>Nutrition Facts</button>
                 </div>
                 <button onClick={this.props.changeClose}><code>CLOSE</code></button>
             </div>
