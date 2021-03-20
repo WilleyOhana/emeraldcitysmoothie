@@ -16,11 +16,11 @@ class Navbar extends React.Component {
         if(dropdownContents.classList.contains('off')) {
             dropdownContents.classList.remove('off');
             dropdownContents.classList.add('on');
-            homeScreen.style.minHeight = "800px";
+            if(homeScreen) homeScreen.style.minHeight = "800px";
         } else {
             dropdownContents.classList.remove('on');
             dropdownContents.classList.add('off');
-            homeScreen.style.minHeight = "600px";
+            if(homeScreen) homeScreen.style.minHeight = "600px";
         }
     }
 
