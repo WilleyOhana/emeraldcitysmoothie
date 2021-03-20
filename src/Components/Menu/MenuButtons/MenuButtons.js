@@ -48,7 +48,7 @@ class MenuButtons extends React.Component {
                         <hr></hr>
                         <button id="showWeight1" className={this.props.dim} onClick={() => this.handleClick("showWeight")}>Help Me Lose Weight</button>
                         <hr></hr>
-                        <button>Acai Bowls</button>
+                        <button id="showBowls1" className={this.props.dim} onClick={() => this.handleClick("showBowls")}>Acai Bowls</button>
                     </div>
                 </div>
                 
@@ -58,7 +58,7 @@ class MenuButtons extends React.Component {
                 <button id="showNourish2" className={this.props.dim} onClick={() => this.handleClick("showNourish")}>Nourish My Body</button>                
                 <button id="showImmunity2" className={this.props.dim} onClick={() => this.handleClick("showImmunity")}>Boost My Immune System</button>
                 <button id="showWeight2" className={this.props.dim} onClick={() => this.handleClick("showWeight")}>Help Me Lose Weight</button>
-                <button>Acai Bowls</button>
+                <button id="showBowls2" className={this.props.dim} onClick={() => this.handleClick("showBowls")}>Acai Bowls</button>
             </div>
         )
     }
