@@ -17,7 +17,7 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <div class="Contact">
+            <div className="Contact">
                 <div className="contact-background-image">
                     <Navbar />
                     <div className="container">
