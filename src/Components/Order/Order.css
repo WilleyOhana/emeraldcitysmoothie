@@ -1,8 +1,19 @@
-.order-background-image {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+.Order {
+    font-size: 30px;
+    text-align: center;
+}
+
+.Order .temp-contents a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.Order .temp-contents img {
+    max-height: 200px;
+    max-width: 100vw;
+}
+
+.Order .Navbar {
+    margin-bottom: 90px;
 }
