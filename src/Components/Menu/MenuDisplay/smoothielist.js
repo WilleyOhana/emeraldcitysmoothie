@@ -43,6 +43,11 @@ import orangetwisterpic from './smoothiepics/orange-twister.jpg';
 import pacificsplashpic from './smoothiepics/pacific-splash.jpg';
 import pineappleblisspic from './smoothiepics/pineapple-bliss.jpg';
 import slimnfitpic from './smoothiepics/slim-n-fit.jpg';
+//Acai Bowls
+import bananaberrycrunchpic from './smoothiepics/banana-berry-crunch.jpg';
+import healthnutpic from './smoothiepics/health-nut.jpg';
+import tropicalsunrisepic from './smoothiepics/tropical-sunrise.jpg';
+import veganberryblastpic from './smoothiepics/vegan-berry-blast.jpg';
 
 export const acaifusion = {
     src: acaifusionpic,
@@ -369,5 +374,39 @@ export const zonezinger = {
     alt: "Zone Zinger",
     ingredients: ["Strawberry","Papaya","Lemon","Cranberry","Multi-Vitamin","Whey Protein *Gluten Free *Can be made vegan by request"],
     price: [6.00, 7.00],
+    nutrition: greengoddessnutrfacts
+}
+
+
+//Acai bowls
+export const bananaberrycrunch = {
+    src: bananaberrycrunchpic,
+    alt: "Banana Berry Crunch",
+    ingredients: ["Acai","Strawberry","Blueberry","Marionberry","Banana","Granola","Agave"],
+    price: [9.00],
+    nutrition: greengoddessnutrfacts
+}
+
+export const healthnut = {
+    src: healthnutpic,
+    alt: "Health Nut",
+    ingredients: ["Acai","Strawberry","Blueberry","Banana","Granola","Goji Berry","Almond","Peanut Butter","Agave"],
+    price: [9.00],
+    nutrition: greengoddessnutrfacts
+}
+
+export const tropicalsunrise = {
+    src: tropicalsunrisepic,
+    alt: "Tropical Sunrise",
+    ingredients: ["Acai","Strawberry","Pineapple","Mango","Granola","Goji Berry","Coconut","Agave"],
+    price: [9.00],
+    nutrition: greengoddessnutrfacts
+}
+
+export const veganberryblast = {
+    src: veganberryblastpic,
+    alt: "Vegan Berry Blast",
+    ingredients: ["Acai","Dragonfruit","Pineapple","Mango","Banana","Granola","Coconut"],
+    price: [9.00],
     nutrition: greengoddessnutrfacts
 }
