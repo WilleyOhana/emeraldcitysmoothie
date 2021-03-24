@@ -55,6 +55,9 @@
     margin-bottom: 12px;
     font-size: 20px;
     font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .Smoothie h4 {
@@ -64,7 +67,6 @@
 }
 
 .truncate-overflow {
-    min-height: 2.4em;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
