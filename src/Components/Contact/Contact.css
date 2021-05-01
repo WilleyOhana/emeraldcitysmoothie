@@ -72,7 +72,12 @@
 }
 
 .Contact input[type=submit] {
-    width: 200px;
+    width: 170px;
+}
+
+.Contact input[type=submit]:hover {
+    background-color:rgb(224, 224, 224);
+    cursor: pointer;
 }
 
 .Contact .icon {
@@ -91,6 +96,11 @@
     border: none;
     border-radius: 6px;
     resize: none;
+}
+
+.Contact form.emailjs-sending {
+    filter: opacity(0.8);
+    pointer-events: none;
 }
 
 @media screen and (max-width: 980px) {

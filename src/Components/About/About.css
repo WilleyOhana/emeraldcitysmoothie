@@ -16,7 +16,7 @@
     font-size: 80px;
 }
 
-.About hr {
+.About .container hr {
     margin: 20px;
     border: dashed 2px rgb(140, 143, 155)
 }
