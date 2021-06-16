@@ -11,6 +11,7 @@
     margin-top: -250px;
     margin-left: -325px;
     animation: expand .4s;
+    overflow: hidden;
 }
 
 .NutritionFacts {
@@ -39,14 +40,15 @@
 
 .NutritionFacts .ingredients {
     font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    margin-right: 10px;
     text-align: left;
     height: 100%;
     overflow: hidden;
+    width: 60%;
 }
 
-.NutritionFacts img {
-    height: 100%;
+.NutritionFacts .nutrition {
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    width: 60%;
     float: right;
 }
 
@@ -123,6 +125,31 @@
     display: none;
 }
 
+.NutritionFacts.contents .nutrition table {
+    margin: 0 auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.NutritionFacts .contents .nutrition td {
+    padding: 1px 20px;
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+}
+
+.NutritionFacts .contents .nutrition td:nth-child(odd) {
+    font-weight: 500;
+}
+
+.NutritionFacts .contents .nutrition td:nth-child(even) {
+    color: rgb(63, 63, 63);
+}
+
+.NutritionFacts .contents .nutrition tr:nth-child(odd) {
+    background-color: rgba(118, 185, 202, 0.4);
+}
+
 @media screen and (max-width: 980px) {
     .NutritionFacts.displayed {
         display: inline;
@@ -137,7 +164,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
     .NutritionFacts.displayed .contents button {
         display: inline;
     }
@@ -155,11 +182,47 @@
         height: 90%;
     }
 
-    .NutritionFacts.displayed .contents img {
+    .NutritionFacts.displayed .contents .nutrition {
+        width: 100%;
         height: 90%;
-        float: none;
-        margin: 0 auto;
         display: none;
+    }
+
+    .NutritionFacts.displayed .contents .nutrition table {
+        margin: 0 auto;
+        text-align: left;
+        border-collapse: collapse;
+    }
+
+    .NutritionFacts.displayed .contents .nutrition td {
+        padding: 1px 45px;
+        font-size: 20px;
+    }
+
+    .NutritionFacts.displayed .contents .nutrition td:nth-child(even) {
+        padding: 1px 20px;
+    }
+
+    .NutritionFacts.displayed .contents .nutrition tr:nth-child(odd) {
+        background-color: rgba(118, 185, 202, 0.4);
+    }
+    
+    .NutritionFacts .ingredients {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .NutritionFacts.displayed .contents .nutrition td {
+        padding: 1px 25px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .NutritionFacts.displayed .contents .nutrition td {
+        padding: 1px 10px;
+        font-size: 19px;
     }
 }
 

@@ -64,7 +64,50 @@ class NutritionFacts extends React.Component {
                         <p>{this.listIngredients(this.props.ingredients)}</p>
                         {this.listAttributes(this.props.ingredients[this.props.ingredients.length - 1])}
                     </div>
-                    <img id={`${this.props.name} nutritionfacts`} src={this.props.nutrition} alt="nutrition facts"></img>
+                    <div id={`${this.props.name} nutritionfacts`} className="nutrition">
+                        <table>
+                            <tr>
+                                <td>Calories:</td>
+                                <td>{this.props.nutrition.calories}</td>
+                            </tr>
+                            <tr>
+                                <td>Total Fat:</td>
+                                <td>{this.props.nutrition.totalFat} g</td>
+                            </tr>
+                            <tr>
+                                <td>Saturated Fat:</td>
+                                <td>{this.props.nutrition.satFat} g</td>
+                            </tr>
+                            <tr>
+                                <td>Trans Fat:</td>
+                                <td>{this.props.nutrition.transFat} g</td>
+                            </tr>
+                            <tr>
+                                <td>Cholesterol:</td>
+                                <td>{this.props.nutrition.cholesterol} mg</td>
+                            </tr>
+                            <tr>
+                                <td>Sodium:</td>
+                                <td>{this.props.nutrition.sodium} mg</td>
+                            </tr>
+                            <tr>
+                                <td>Total Carbs:</td>
+                                <td>{this.props.nutrition.carbs} g</td>
+                            </tr>
+                            <tr>
+                                <td>Dietary Fiber:</td>
+                                <td>{this.props.nutrition.fiber} g</td>
+                            </tr>
+                            <tr>
+                                <td>Sugars:</td>
+                                <td>{this.props.nutrition.sugar} g</td>
+                            </tr>
+                            <tr>
+                                <td>Protein:</td>
+                                <td>{this.props.nutrition.protein} g</td>
+                            </tr>
+                        </table>
+                    </div>
                     <button id={`${this.props.name} toggle`} onClick={() => this.displayNutritionFacts(this.props.name)}>Nutrition Facts</button>
                 </div>
                 <button onClick={this.props.changeClose}><code>CLOSE</code></button>

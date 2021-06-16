@@ -184,7 +184,6 @@ class MenuDisplay extends React.Component {
                         smoothies={[smoothielist.bananaberrycrunch,
                                     smoothielist.healthnut,
                                     smoothielist.tropicalsunrise,
-                                    smoothielist.veganberryblast
                                 ]}
                         blurBackground={this.props.blurBackground}
                         unblur={this.props.unblur}

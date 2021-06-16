@@ -32,7 +32,7 @@ class MenuButtons extends React.Component {
         return (
             <div id="MenuButtons" className="MenuButtons">
                 <div className="dropdown">
-                    <div className="drop-button" onClick={this.displayFilters}>
+                    <div className="drop-button">
                         <img src={hamburgericon} alt="filters"></img>
                     </div>
                     <div className="dropdown-content">

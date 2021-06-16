@@ -34,7 +34,6 @@ class Navbar extends React.Component {
                     <NavLink to="/" exact className="button">Home</NavLink>
                     <NavLink to="/menu" className="button">Menu</NavLink>
                     <NavLink to="/contact" className="button">Contact</NavLink>
-                    <NavLink to="/about" className="button">About</NavLink>
                     <img id="dropdown" className="hamburger" src={hamburgericon} alt="menu" onClick={this.displayDropdown}></img>
                     <NavLink to="/order" className="button order">Order Now</NavLink>
                 </div>
@@ -44,8 +43,6 @@ class Navbar extends React.Component {
                     <NavLink to="/menu" className="button">Menu</NavLink>
                     <hr></hr>
                     <NavLink to="/contact" className="button">Contact</NavLink>
-                    <hr></hr>
-                    <NavLink to="/about" className="button">About</NavLink>
                 </div>
             </div>
         );
