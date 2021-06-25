@@ -1,5 +1,6 @@
 import React from 'react';
 import './HowToOrder.css';
+import { NavLink } from 'react-router-dom';
 
 import smoothies from './smoothieicons.jpg';
 import boosters from './boosters.png';
@@ -12,7 +13,7 @@ class HowToOrder extends React.Component {
                 <div className="order-steps">
                     <div className="step">
                         <h2 className="order-now">Select 'Order Now'</h2>
-                        <a href="/order" className="button order" id="order">Order Now</a>
+                        <NavLink to="/order" className="button order">Order Now</NavLink>
                     </div>
                     <div>
                         <i className="arrow"></i>

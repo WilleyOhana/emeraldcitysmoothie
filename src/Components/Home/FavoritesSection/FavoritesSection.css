@@ -1,4 +1,4 @@
-.Favorites {
+.cont {
     width: 100%;
     background: linear-gradient(
         rgba(177, 177, 177, 0.5),
@@ -7,6 +7,9 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+}
+
+.Favorites {
     text-align: center;
     display: flexbox;
     justify-content: space-around;

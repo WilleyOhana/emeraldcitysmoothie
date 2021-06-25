@@ -44,11 +44,11 @@ class Contact extends React.Component {
         if(this.validateForm(e)) {
 
             //Send automated message to customer
-            emailjs.sendForm(`${{secret.SERVICE_ID}}`, `${{secret.CUSTOMER_TEMPLATE_ID}}`, e.target, `${{secret.USER_ID}}`)
+            emailjs.sendForm('service_6bv5quk', 'template_62ubyqk', e.target, 'user_0hYTlz6Tj87gdtKnWoQot')
                 .then(() => {
 
                     //Send automated message to store
-                    emailjs.sendForm(`${{secret.SERVICE_ID}}`, `${{secret.STORE_TEMPLATE_ID}}`, e.target, `${{secret.USER_ID}}`)
+                    emailjs.sendForm('service_6bv5quk', 'template_c8cwbdb', e.target, 'user_0hYTlz6Tj87gdtKnWoQot')
                         .then(() => {
                             
                             //Clear form data

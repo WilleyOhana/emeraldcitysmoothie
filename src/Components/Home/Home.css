@@ -5,7 +5,7 @@
 }
   
 .home-background-image {
-    min-height: 600px;
+    min-height: 800px;
     position: relative;
     width: 100%;
     height: 100%;
@@ -18,8 +18,42 @@
     background-size: cover;
 }
 
+.Home .grayscreen {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 3;
+    background-color: rgba(61, 61, 61, 0.6);
+    animation: grayout .5s ease-in-out;
+}
+
+.Home .close-button {
+    margin: 30px;
+    padding: 10px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(175, 21, 21, 0.884);
+    font-size: 20px;
+    border-radius: 8px;
+    color: rgb(226, 226, 226);
+    transition: 0.1s ease;
+}
+
+.Home .close-button:hover {
+    cursor: pointer;
+    background-color: rgb(201, 31, 31);
+    color: white;
+}
+
 @media screen and (max-width: 600px) {
     .Home .home-background-image {
         max-height: 600px;
     }
+}
+
+@keyframes grayout {
+    from {background-color: rgba(61,61,61,0);}
+    to {background-color: rgba(61, 61, 61, 0.6);}
 }

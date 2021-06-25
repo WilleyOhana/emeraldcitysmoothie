@@ -11,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Router basename={"/emeraldcitysmoothie"}>
+        <Router>
           <Switch>
             <Route path="/" exact component = {() => <Home />} />
             <Route path="/menu" exact component = {() => <Menu />} />
